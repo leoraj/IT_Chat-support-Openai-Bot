@@ -2,7 +2,7 @@
 An intelligent IT Support Assistant powered by Azure OpenAI, Azure Cognitive Search, and Freshdesk.
 Designed for enterprise IT teams to automate troubleshooting, streamline ticket creation, and deliver fast, accurate support.
 
-🚀 Features
+## 🚀 Features
 - 💬 Conversational AI using Azure OpenAI
 - 🔍 Knowledge-aware responses via Azure Cognitive Search
 - 🎫 Freshdesk ticket creation with auto‑assignment
@@ -25,7 +25,7 @@ Designed for enterprise IT teams to automate troubleshooting, streamline ticket 
 | Tools       | Axios, Nodemon, dotenv               |
 
 
-📂 Project Structure
+## 📂 Project Structure
 IT_Chat-support-Openai-Bot/
 ├── backend/
 │   ├── routes/
@@ -50,18 +50,15 @@ IT_Chat-support-Openai-Bot/
 
 
 
-⚙️ Setup Instructions
+## ⚙️ Setup Instructions
 1. Clone the repository
 git clone https://github.com/leoraj/IT_Chat-support-Openai-Bot.git
 cd IT_Chat-support-Openai-Bot
 
-
-
-🖥️ Backend Setup
+## 🖥️ Backend Setup
 cd backend
 npm install
 npm run dev
-
 
 Create a .env file inside backend/:
 PORT=5000
@@ -83,7 +80,7 @@ FRESHDESK_DEFAULT_AGENT_ID=987654321
 
 
 
-🌐 Frontend Setup
+## 🌐 Frontend Setup
 cd ../frontend
 npm install
 npm run dev
@@ -91,7 +88,7 @@ npm run dev
 
 The app will start on Vite’s default port (usually 5173).
 
-📡 API Endpoints
+## 📡 API Endpoints
 POST /chat
 Handles AI conversation + Azure Search context.
 POST /chat/ticket
@@ -104,7 +101,7 @@ GET /api/tickets/recent
 Returns recent Freshdesk tickets for dashboard view.
 
 📸 Screenshots
-Add your UI screenshots here (chat window, ticket banner, Freshdesk ticket view).
+
 
 👨‍💻 Author
 RajKumar Santhanam

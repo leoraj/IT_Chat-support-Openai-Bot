@@ -105,14 +105,16 @@ Returns recent Freshdesk tickets for dashboard view.
 ### 📬 Mail GUI
 ![Mail GUI](Images/mail-gui.png)
 
-### 🚨 Set Severity
-![Set Severity](Images/set-severity.png)
 
 ### 📝 Ticket Creation
 ![Ticket Creation](Images/ticket-creation.png)
 
+### 🚨 Set Severity
+![Set Severity](Images/set-severity.png)
+
+
 
 👨‍💻 Author
 RajKumar Santhanam
-Senior IT Infrastructure & Cloud Engineer
+
 

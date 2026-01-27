@@ -100,7 +100,16 @@ Creates a Freshdesk ticket with:
 GET /api/tickets/recent
 Returns recent Freshdesk tickets for dashboard view.
 
-📸 Screenshots
+## 🧠 IT Support Portal AI – UI Screenshots
+
+### 📬 Mail GUI
+![Mail GUI](Images/mail-gui.png)
+
+### 🚨 Set Severity
+![Set Severity](Images/set-severity.png)
+
+### 📝 Ticket Creation
+![Ticket Creation](Images/ticket-creation.png)
 
 
 👨‍💻 Author

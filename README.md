@@ -109,7 +109,7 @@ Returns recent Freshdesk tickets for dashboard view.
 ### 📝 Ticket Creation
 ![Ticket Creation](Images/ticket-creation.png)
 
-### 🚨 Set Severity
+### 🚨 Auto Set Severity
 ![Set Severity](Images/set-severity.png)
 
 

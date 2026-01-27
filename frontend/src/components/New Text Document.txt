@@ -1,0 +1,33 @@
+import { useEffect, useState } from "react";
+import { getDeepHealth } from "../apiHealth";
+
+export default function HealthStatus() {
+  const [health, setHealth] = useState(null);
+
+  const loadHealth = async () => {
+    const data = await getDeepHealth();
+    setHealth(data);
+  };
+
+  useEffect(() => {
+    loadHealth();
+  }, []);
+
+  if (!health) {
+    return <div className="health-status">Checking...</div>;
+  }
+
+  const green = "🟢";
+  const red = "🔴";
+
+  return (
+    <div className="health-status">
+      <span>API: {health.status === "OK" ? green : red}</span>
+      <span>OpenAI: {health.checks.azureOpenAI.ok ? green : red}</span>
+      <span>Search: {health.checks.azureSearch.ok ? green : red}</span>
+      <span>Desk365: {health.checks.desk365.ok ? green : red}</span>
+
+      <button onClick={loadHealth} className="refresh-btn">↻</button>
+    </div>
+  );
+}

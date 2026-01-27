@@ -1,0 +1,100 @@
+body {
+  margin: 0;
+  background: #f5f5f5;
+  font-family: Arial, sans-serif;
+}
+
+.chat-container {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  max-width: 800px;
+  margin: 20px auto;
+}
+
+.chat-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.health-status {
+  display: flex;
+  gap: 10px;
+  font-size: 14px;
+  background: #f0f7ff;
+  padding: 6px 10px;
+  border-radius: 6px;
+  border: 1px solid #d0e4ff;
+}
+
+.refresh-btn {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.chat-box {
+  background: #fafafa;
+  border: 1px solid #ddd;
+  padding: 12px;
+  height: 400px;
+  overflow-y: auto;
+  margin-bottom: 12px;
+  border-radius: 4px;
+}
+
+.msg {
+  margin-bottom: 10px;
+}
+
+.msg.user {
+  text-align: right;
+  color: #333;
+}
+
+.msg.bot {
+  text-align: left;
+  color: #0050b3;
+}
+
+.chat-input {
+  display: flex;
+  gap: 8px;
+}
+
+.chat-input input {
+  flex: 1;
+  padding: 10px;
+  font-size: 14px;
+}
+
+.chat-input button {
+  padding: 10px 16px;
+  background: #1890ff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.ticket-banner {
+  background: #e6f4ff;
+  border-left: 4px solid #1890ff;
+  padding: 12px;
+  margin-bottom: 12px;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.ticket-banner button {
+  margin-top: 8px;
+  padding: 6px 12px;
+  background: #1890ff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}

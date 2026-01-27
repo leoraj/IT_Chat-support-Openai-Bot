@@ -1,4 +1,5 @@
-🛠️ IT Support Chat Bot – Azure OpenAI + Freshdesk
+🛠️ IT Support Chat Bot – Azure OpenAI + Freshdesk/ServiceNow
+
 An intelligent IT Support Assistant powered by Azure OpenAI, Azure Cognitive Search, and Freshdesk.
 Designed for enterprise IT teams to automate troubleshooting, streamline ticket creation, and deliver fast, accurate support.
 

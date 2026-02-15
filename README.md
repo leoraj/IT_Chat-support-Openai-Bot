@@ -117,5 +117,6 @@ Returns recent Freshdesk tickets for dashboard view.
 
 👨‍💻 Author
 RajKumar Santhanam
+Rajwins@outlook.com
 
 
